@@ -11,7 +11,7 @@ export const StoreContext = createContext({
 
 const StoreContextProvider = ({ children }) => {
     const [cartItems, setCartItems] = useState({});
-    const url = "https://rasoda-backend.onrender.com";
+    const url = "https://rasoda-back.onrender.com";
     const [token,setToken] = useState("");
     const [food_list,setFoodList] = useState([])
 
